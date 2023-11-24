@@ -34,8 +34,8 @@ Navigate to the project directory:
    ```cd expense-tracker```
 Build and run the Docker containers:
 
-   ```sh
-   docker-compose up --build
+   
+   ```docker-compose up --build```
 Usage
 After starting the application, navigate to http://localhost:3000 to access the React frontend, and http://localhost:8000 for the Django backend API (adjust the ports as necessary).
 

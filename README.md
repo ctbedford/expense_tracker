@@ -29,33 +29,30 @@ Personal Expense Tracker is a full-stack web application designed to help users 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/expense-tracker.git```
+   git clone https://github.com/yourusername/expense-tracker.git
 
 2. Navigate to the project directory:
    ```sh
-   cd expense-tracker```
+   cd expense-tracker
 
 3. Build and run the Docker containers:
+   ```sh
+   docker-compose up --build
 
-sh
-Copy code
-docker-compose up --build
-Usage
+4. Usage
 After starting the application, navigate to http://localhost:3000 to access the React frontend, and http://localhost:8000 for the Django backend API (adjust the ports as necessary).
 
-Testing
+5. Testing
 To run the unit tests for the Django backend:
-
-sh
-Copy code
-docker exec -it backend-container python manage.py test
+   ```sh
+   docker exec -it backend-container python manage.py test
+   
 For the React frontend tests:
-
-sh
-Copy code
-cd frontend
-npm test
-Deployment
+   ```sh
+      cd frontend
+      npm test
+```
+6. Deployment
 For deployment on AWS Elastic Beanstalk, follow the AWS Elastic Beanstalk Documentation.
 
 Contributing

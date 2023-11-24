@@ -66,6 +66,6 @@ Icons and images provided by FontAwesome
 React framework by Facebook
 Django framework by Django Software Foundation
 Contact
-Your Name - email@example.com
+Tyler Bedford - tybed7@icloud.com
 
-Project Link: https://github.com/yourusername/expense-tracker
+Project Link: https://github.com/ctbedford/expense-tracker

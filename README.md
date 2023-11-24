@@ -46,12 +46,12 @@ After starting the application, navigate to http://localhost:3000 to access the 
 To run the unit tests for the Django backend:
    ```sh
    docker exec -it backend-container python manage.py test
-   
-For the React frontend tests:
+   ```
+   For the React frontend tests:
    ```sh
       cd frontend
       npm test
-```
+   ```
 6. Deployment
 For deployment on AWS Elastic Beanstalk, follow the AWS Elastic Beanstalk Documentation.
 

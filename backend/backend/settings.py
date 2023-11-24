@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+import os
+import dj_database_url
 
 from pathlib import Path
 
@@ -74,14 +76,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_database_name',
-        'USER': 'your_database_user',
-        'PASSWORD': 'your_database_password',
-        'HOST': 'localhost',  # or your PostgreSQL server's hostname
-        'PORT': '',           # leave empty to use the default PostgreSQL port
-    }
+    'default': dj_database_url.config(default=os.environ['DATABASE_URL'])
 }
 
 

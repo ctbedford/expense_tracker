@@ -31,7 +31,7 @@ Personal Expense Tracker is a full-stack web application designed to help users 
    git clone https://github.com/yourusername/expense-tracker.git
 Navigate to the project directory:
 
-   ```cd expense-tracker```
+   ```sh cd expense-tracker```
 Build and run the Docker containers:
 
    
